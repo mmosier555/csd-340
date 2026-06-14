@@ -1,0 +1,31 @@
+/*Megan Mosier - CSD 340 - Assignment 3.3 */
+
+body{
+  font-family: "Lato", sans-serif;
+}
+
+#container {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+  background-color: #1B4F72; 
+  color: #FFFFFF;
+  border: 1px solid #D6A800;
+  padding: 10px;
+}
+
+a{
+  color: #1A6FA8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D6A800;
+}
+
+a:visited {
+  color: #7D6B8A;
+}
