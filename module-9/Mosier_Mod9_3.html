@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Megan Mosier">
+    <meta name="description" content="Assignment 9.3 - JavaScript Part 1">
+    <meta name="keywords" content="HTML, CSS, JavaScript, CSD340, Bellevue University">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Mosier_Mod9_3.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <h2>A Trail Story</h2>
+
+        <p class="intro">The trailhead was quiet that <span id="word1" class="blank">____</span> morning, just me,
+        my boots, and a thermos of coffee going cold in my pack. I had been putting this hike off for weeks,
+        telling myself I was too busy, too tired, too behind on everything else. But the mountains have a way
+        of waiting patiently until you finally show up.</p>
+
+        <p>About a mile in, the trail opened onto a ridge, and I could see the whole valley spread out below.
+        I sat down on a flat rock and just breathed for a minute. It reminded me why I picked up
+        <span id="word2" class="blank">____</span> in the first place, that feeling of doing something
+        just for myself, with no deadline attached to it. My phone buzzed in my pocket and, for once,
+        I let it sit there.</p>
+
+        <p>By the time I got back to the car, my legs ached and my coffee was long gone, but I felt lighter
+        than I had in days. I thought about my <span id="word3" class="blank">____</span> waiting for me at home,
+        and how good it would feel to tell them about the hawk I watched circle over the ridge. Driving home with
+        the windows down, all I could feel was <span id="word4" class="blank">____</span>, and I made a promise
+        to myself not to wait so long before the next one.</p>
+
+        <div class="buttons">
+            <button onclick="fillBlank('word1', season)">Fill in Season</button>
+            <button onclick="fillBlank('word2', hobby)">Fill in Hobby</button>
+            <button onclick="fillBlank('word3', family)">Fill in Family</button>
+            <button onclick="fillBlank('word4', feeling)">Fill in Feeling</button>
+        </div>
+
+        <hr />
+
+        <address>
+            <p><a href="https://www.bellevue.edu">Bellevue University</a></p>
+            <p>1000 Galvin Road South</p>
+            <p>Bellevue, NE 68005</p>
+        </address>
+    </div>
+
+    <script>
+        // Four variables holding the string values for the blank spans
+        var season = "October";
+        var hobby = "hiking";
+        var family = "dog";
+        var feeling = "grateful";
+
+        // Replaces the underscore placeholder in the given span with its word
+        function fillBlank(spanId, word) {
+            document.getElementById(spanId).textContent = word;
+        }
+    </script>
+</body>
+</html>

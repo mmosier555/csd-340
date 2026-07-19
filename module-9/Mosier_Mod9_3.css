@@ -1,0 +1,91 @@
+/* Megan Mosier | Assignment 2.2 | CSD 340 */
+
+body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #222222;
+}
+
+h2 {
+    font-size: 20px;
+    color: #444444;
+}
+
+p {
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+.intro {
+    font-style: italic;
+    border-left: 4px solid #999999;
+    padding-left: 12px;
+}
+
+.sentence {
+    font-weight: bold;
+    color: #0055aa;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 30px 0;
+}
+
+address {
+    font-style: normal;
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.6;
+}
+
+address a {
+    color: #0055aa;
+    text-decoration: none;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+.blank {
+    font-weight: bold;
+    color: #0055aa;
+    border-bottom: 1px dashed #999999;
+    padding: 0 2px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    background-color: #0055aa;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 14px;
+    margin: 4px 6px 4px 0;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #003d7a;
+}
